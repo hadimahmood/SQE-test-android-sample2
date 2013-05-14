@@ -17,5 +17,8 @@ public class TestingClass {
     void validate() {
         if(true)
             System.out.println("This code will always run when function is called.");
+        else if(false) {
+            System.out.println("This is almost done.");
+        }
     }
 }
